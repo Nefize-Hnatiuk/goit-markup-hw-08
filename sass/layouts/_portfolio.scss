@@ -42,13 +42,17 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
+  
   gap: 30px;
+  
 }
 .projects-item {
+  
   flex-basis: 100%;
   @include tablet {
     flex-basis: calc((100% - 30px) / 2);
+    
   }
   @include desktop {
     flex-basis: calc((100% - 60px) / 3);
@@ -87,9 +91,12 @@
 }
 
 .projects-container {
+  
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
   border-top: none;
+ 
+ 
 }
 
 .projects-title {
